@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Moderustic:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161365.jpg?t=st=1724138881~exp=1724142481~hmac=c096af752049921d341692675d76032a6a95d1419b2b8865d6e7d7f0a47be3f0&w=1480");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+button {
+  background: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.8rem;
+  border: 1px solid #98E4FF;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+
+#oauth-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 1rem;
+  background: none;
+  color: #98E4FF;
+  cursor: pointer;
+}
+
+#oauth-google svg {
+  height: 1.2rem;
+  width: 1.2rem;
+}

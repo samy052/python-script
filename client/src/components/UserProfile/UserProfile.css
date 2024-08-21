@@ -1,0 +1,33 @@
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #fff;
+    height: 100vh;
+}
+
+.user-profile img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.user-profile button {
+    cursor: pointer;
+    color: #FF004D;
+    border: 1px solid #FF004D;
+}
+
+.start-stop {
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+#start {
+    border: 1px solid #41B06E;
+    color: #41B06E;
+}
