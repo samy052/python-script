@@ -23,7 +23,7 @@ mongoose
 
 app.use("/api/auth", authRouter);
 
-app.get("/", (res) => {
+app.get("/", (req,res) => {
   res.send("😂");
 });
 
