@@ -13,7 +13,7 @@ app.use(express.json());
 const port = process.env.PORT;
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/PythonScript")
+  .connect("mongodb+srv://samarthsoni824:samarth@cluster0.65qii.mongodb.net/")
   .then(() => {
     console.log("Connection Successful");
   })
